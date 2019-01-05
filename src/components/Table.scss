@@ -1,0 +1,23 @@
+.table {
+  display: flex;
+  min-height: 200px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.table-content {
+  background-color: #ecf0f1;
+  min-width: 200px;
+  margin: 5px;
+  padding: 5px;
+  color: #34495e;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+
+  .content-footer {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+  }
+}
